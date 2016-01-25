@@ -2,6 +2,6 @@
 ## Give all files CHMOD 777 
 ## Set Config 
 ## Bot Start => ./bot.sh start
-## Bot Stop => ./bot.sh start
+## Bot Stop => ./bot.sh stop
 
 ## Created by Ts-Islam
