@@ -47,9 +47,10 @@ try {
 	 foreach ($ts3_VirtualServer->clientList() as $cl) {
 		if ($cl->getProperty('connection_client_ip') == $_SERVER['REMOTE_ADDR']) {
 		
-			// هذه نستعملها للتجارب في المتصفح نصيحة شيلها :)
 			header('Content-Type: image/png');
+			// هذه نستعملها للتجارب في المتصفح نصيحة شيلها :)
 			header('refresh: 3; url=');
+			// نهاية الي تشيلة
 			
 			$_SESSION ['ggids'] = explode(",", $cl["client_servergroups"]);
 				
@@ -67,7 +68,7 @@ try {
 				
 			} else {
 			
-				$image_file = 'banner2.png';
+				$image_file = 'banner_notactivated.png';
 				
 			}
 			// اضافة الصور
