@@ -99,10 +99,10 @@ try {
 			if ($image_file == "banner9.png"){ 
 			imagettftext($image, 20, 0, 75, 263, $black, $font, $time);
 			}
-			if ($image_file == "banner3.png"){
+			if ($image_file == "banner_notactivated.png"){
 				imagettftext($image, 20, 0, 500, 263, $blac1, $font, $text3);
 			}
-			if ($image_file == "banner9.png"){
+			if ($image_file == "banner_notactivated.png"){
 			imagettftext($im, 20, 0, 20, 240, $black, $font, $time2);
 			}
 			imagettftext($image, 20, 0, 40, 175, $black, $font, $clientsonline);
