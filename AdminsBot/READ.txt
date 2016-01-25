@@ -1,0 +1,7 @@
+## Install php5
+## Give all files CHMOD 777 
+## Set Config 
+## Bot Start => ./bot.sh start
+## Bot Stop => ./bot.sh start
+
+## Created by Ts-Islam

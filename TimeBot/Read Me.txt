@@ -1,0 +1,7 @@
+## Install php
+## Give all files CHMOD 777  ( chmod 777 /var/www/html/TimeBot/* )
+## Set Config
+## Bot Start => ./bot.sh start
+## Bot Stop => ./botstart.sh stop
+
+## Created by Ts-Islam
