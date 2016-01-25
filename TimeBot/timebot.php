@@ -6,7 +6,7 @@
 **/
 date_default_timezone_set('Asia/Riyadh');
 
-require("ts3admin.class.php");
+require("libraries/ts3admin.class.php");
 include 'config.php';
 
 $tsAdmin = new ts3admin($ts3_ip, $ts3_queryport);
