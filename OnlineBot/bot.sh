@@ -25,7 +25,7 @@ echo -e "$COL_RED
 
 if [ $1 = 'start' ] 
     then 
-        screen -dmS Info php index.php -i 1
+        screen -dmS Info php onlinebot.php -i 1
 		echo -e "Info: $COL_GREEN Bot has been STARTED! $COL_RESET"
     fi
  
