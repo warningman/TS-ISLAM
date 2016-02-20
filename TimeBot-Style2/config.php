@@ -1,6 +1,6 @@
 <?php
 
-$ts3_ip = 'loalhost'; #IP Adress
+$ts3_ip = 'localhost'; #IP Adress
 
 $ts3_queryport = 10011 ; #Queryport 
 
