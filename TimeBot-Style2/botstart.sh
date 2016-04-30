@@ -17,13 +17,13 @@ echo -e "$COL_RED
 |                                                                      |
 ------------------------------------------------------------------------ $COL_RESET"
 
- if [ $1 = 'stop' ] 
+ if [ "$1" = "stop" ] 
     then 
         pkill -f Info
 		echo -e "Info: $COL_GREEN Bot has been STOPED! $COL_RESET"
     fi
 
-if [ $1 = 'start' ] 
+if [ "$1" = "start" ] 
     then 
         screen -dmS Info php timebot.php -i 1
 		echo -e "Info: $COL_GREEN Bot has been STARTED! $COL_RESET"
