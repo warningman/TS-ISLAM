@@ -95,6 +95,6 @@ sleep(10);
 }
 	
 }else{
-	echo "Connetcion Problem";
+	echo "Connection Problem";
 }
 ?>
